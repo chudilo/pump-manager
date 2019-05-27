@@ -1,0 +1,32 @@
+{% extends "PumpManager/base.html" %}
+
+{% block title %}PM ~ Список песен{% endblock %}
+{% block header %}Список песен{%endblock%}
+
+
+
+{% block content %}
+
+<form action="" method="post">
+{% csrf_token %}
+<input type="submit" class="btn btn-block btn-outline-primary" value="Обновление списка" name="Update song list">
+<!--<button>Кнопка </button>-->
+</form>
+
+{% for song in songs %}
+<div class="row">
+
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <a class="p-2 text-dark" href="/songs/{{song.pk}}">{{ song.name }} </a>
+    </div>
+    <div class="col-md-8">
+        {% for chart in song.chart_set.all %}
+          {{chart.type}}{{chart.lvl}}
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+
+{%endblock%}

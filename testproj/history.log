@@ -1,0 +1,1808 @@
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 30, in songs
+    return render(request, 'PumpManager/songs.html', {'songs': songs[0][0]})
+TypeError: 'function' object is not subscriptable
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 30, in songs
+    return render(request, 'PumpManager/songs.html', {'songs': songs[0][0]})
+TypeError: 'function' object is not subscriptable
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 36, in songs
+    return render(request, 'PumpManager/songs.html', {'songs': songs[0]})
+TypeError: 'function' object is not subscriptable
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 36, in songs
+    return render(request, 'PumpManager/songs.html', {'songs': songs[0][0]})
+TypeError: 'function' object is not subscriptable
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 36, in songs
+    word = songs[0][0]
+TypeError: 'function' object is not subscriptable
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 70, in songs
+    return render(request, 'PumpManager/songs.html', {'songs': Song.objects.all()})
+NameError: name 'Song' is not defined
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /lists/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 68, in songs
+    return render(request, 'yourapp/output.html', {'songs': "asd"})
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: yourapp/output.html
+WARNING:HttpError
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /songs/pricing.css
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:Not Found: /pl
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/1
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 78, in songID
+    return render(request, 'PumpManager/songID.html', {'song': song})
+NameError: name 'song' is not defined
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 75, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 76, in songID
+    except Question.DoesNotExist:
+NameError: name 'Question' is not defined
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 75, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 76, in songID
+    except Question.DoesNotExist:
+NameError: name 'Question' is not defined
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 75, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 76, in songID
+    except Question.DoesNotExist:
+NameError: name 'Question' is not defined
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+ERROR:Internal Server Error: /songs/6
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 75, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+PumpManager.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 76, in songID
+    except Question.DoesNotExist:
+NameError: name 'Question' is not defined
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/6
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 75, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+PumpManager.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 77, in songID
+    raise Http404("Song does not exist")
+NameError: name 'Http404' is not defined
+ERROR:Internal Server Error: /songs/6
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 75, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 399, in get
+    self.model._meta.object_name
+PumpManager.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 77, in songID
+    raise Http404("Song does not exist")
+NameError: name 'Http404' is not defined
+WARNING:HttpError
+WARNING:Not Found: /songs/6
+ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 76, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+2019-05-21 19:28:48,051; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 19:37:27,927; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 19:48:35,142; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 19:50:02,486; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 19:50:48,130; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 20:02:35,224; ERROR:Internal Server Error: /mixes/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 158, in mixes
+    v = Version(mix = m, version = version)
+NameError: name 'Version' is not defined
+2019-05-21 20:10:50,699; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 20:11:47,022; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 20:16:36,767; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 20:18:36,847; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 20:21:20,022; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-21 20:21:40,605; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+WARNING:HttpError
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+WARNING:HttpError
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+WARNING:HttpError
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+WARNING:HttpError
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+WARNING:HttpError
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+WARNING:HttpError
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+ERROR:name 'chart' is not defined
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 119, in songs
+    songs, charts = pumpdb.convertSongs()
+  File "/home/chudik/dbproject/testproj/PumpManager/pumpdb.py", line 92, in convertSongs
+    song['charts'] = charts[i]
+IndexError: list index out of range
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 119, in songs
+    songs, charts = pumpdb.convertSongs()
+  File "/home/chudik/dbproject/testproj/PumpManager/pumpdb.py", line 91, in convertSongs
+    song['cathegory'] = songs[i][j+6]
+IndexError: list index out of range
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 119, in songs
+    songs, charts = pumpdb.convertSongs()
+ValueError: too many values to unpack (expected 2)
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 127, in songs
+    s.save()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1288, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1241, in as_sql
+    for obj in self.query.objs
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1241, in <listcomp>
+    for obj in self.query.objs
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1240, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1182, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 790, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 785, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Stick'
+WARNING:HttpError
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 128, in songs
+    s.save()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 748, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 831, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 869, in _do_insert
+    using=using, raw=raw)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 1136, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1288, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1241, in as_sql
+    for obj in self.query.objs
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1241, in <listcomp>
+    for obj in self.query.objs
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1240, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1182, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 790, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 785, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'Stick'
+WARNING:Not Found: /favicon.ico
+2019-05-24 23:06:35,636; ERROR:Internal Server Error: /mixes/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 235, in mixID
+    {'mix': Mix.objects.get(pk=mix_id)})
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+2019-05-24 23:06:35,694; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-24 23:09:08,450; ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 188, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+2019-05-24 23:09:08,456; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-24 23:09:55,453; ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 188, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+2019-05-24 23:09:55,461; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-24 23:10:26,552; ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 188, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+2019-05-24 23:10:26,559; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-24 23:10:29,100; ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 188, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+2019-05-24 23:10:29,107; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-24 23:10:40,171; ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 188, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+2019-05-24 23:10:40,177; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-24 23:10:49,037; ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 188, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+2019-05-24 23:10:49,043; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-24 23:10:49,928; ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 188, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+2019-05-24 23:10:49,934; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+2019-05-24 23:10:51,953; ERROR:Internal Server Error: /songs/pricing.css
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 188, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'pricing.css'
+2019-05-24 23:10:51,960; WARNING:Not Found: /docs/4.3/assets/brand/bootstrap-solid.svg
+DEBUG:Start from server, version: 0.9, properties: {'product': 'RabbitMQ', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'version': '3.5.7', 'capabilities': {'publisher_confirms': True, 'basic.nack': True, 'per_consumer_qos': True, 'authentication_failure_close': True, 'consumer_priorities': True, 'consumer_cancel_notify': True, 'connection.blocked': True, 'exchange_exchange_bindings': True}, 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'cluster_name': 'rabbit@chudik-K501UQ', 'platform': 'Erlang/OTP'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'platform': 'Erlang/OTP', 'version': '3.5.7', 'cluster_name': 'rabbit@chudik-K501UQ', 'capabilities': {'connection.blocked': True, 'basic.nack': True, 'authentication_failure_close': True, 'publisher_confirms': True, 'consumer_priorities': True, 'per_consumer_qos': True, 'exchange_exchange_bindings': True, 'consumer_cancel_notify': True}, 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'product': 'RabbitMQ'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'per_consumer_qos': True, 'consumer_cancel_notify': True, 'authentication_failure_close': True, 'basic.nack': True, 'consumer_priorities': True, 'connection.blocked': True}, 'version': '3.5.7', 'cluster_name': 'rabbit@chudik-K501UQ', 'product': 'RabbitMQ', 'platform': 'Erlang/OTP', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'cluster_name': 'rabbit@chudik-K501UQ', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'capabilities': {'consumer_cancel_notify': True, 'consumer_priorities': True, 'basic.nack': True, 'per_consumer_qos': True, 'exchange_exchange_bindings': True, 'authentication_failure_close': True, 'publisher_confirms': True, 'connection.blocked': True}, 'version': '3.5.7', 'platform': 'Erlang/OTP', 'product': 'RabbitMQ', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'capabilities': {'authentication_failure_close': True, 'connection.blocked': True, 'exchange_exchange_bindings': True, 'per_consumer_qos': True, 'publisher_confirms': True, 'consumer_cancel_notify': True, 'consumer_priorities': True, 'basic.nack': True}, 'platform': 'Erlang/OTP', 'cluster_name': 'rabbit@chudik-K501UQ', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'product': 'RabbitMQ', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'version': '3.5.7'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'version': '3.5.7', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'product': 'RabbitMQ', 'platform': 'Erlang/OTP', 'capabilities': {'consumer_cancel_notify': True, 'connection.blocked': True, 'basic.nack': True, 'authentication_failure_close': True, 'consumer_priorities': True, 'exchange_exchange_bindings': True, 'per_consumer_qos': True, 'publisher_confirms': True}, 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'cluster_name': 'rabbit@chudik-K501UQ'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'capabilities': {'consumer_priorities': True, 'consumer_cancel_notify': True, 'authentication_failure_close': True, 'per_consumer_qos': True, 'connection.blocked': True, 'publisher_confirms': True, 'basic.nack': True, 'exchange_exchange_bindings': True}, 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'version': '3.5.7', 'cluster_name': 'rabbit@chudik-K501UQ', 'product': 'RabbitMQ', 'platform': 'Erlang/OTP', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'product': 'RabbitMQ', 'capabilities': {'per_consumer_qos': True, 'consumer_cancel_notify': True, 'exchange_exchange_bindings': True, 'consumer_priorities': True, 'publisher_confirms': True, 'basic.nack': True, 'connection.blocked': True, 'authentication_failure_close': True}, 'version': '3.5.7', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'platform': 'Erlang/OTP', 'cluster_name': 'rabbit@chudik-K501UQ', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'cluster_name': 'rabbit@chudik-K501UQ', 'capabilities': {'per_consumer_qos': True, 'authentication_failure_close': True, 'connection.blocked': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_priorities': True, 'publisher_confirms': True, 'consumer_cancel_notify': True}, 'platform': 'Erlang/OTP', 'version': '3.5.7', 'product': 'RabbitMQ', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'platform': 'Erlang/OTP', 'product': 'RabbitMQ', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'version': '3.5.7', 'cluster_name': 'rabbit@chudik-K501UQ', 'capabilities': {'connection.blocked': True, 'publisher_confirms': True, 'exchange_exchange_bindings': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'consumer_cancel_notify': True, 'basic.nack': True, 'per_consumer_qos': True}, 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'cluster_name': 'rabbit@chudik-K501UQ', 'product': 'RabbitMQ', 'capabilities': {'consumer_cancel_notify': True, 'exchange_exchange_bindings': True, 'consumer_priorities': True, 'per_consumer_qos': True, 'authentication_failure_close': True, 'publisher_confirms': True, 'connection.blocked': True, 'basic.nack': True}, 'platform': 'Erlang/OTP', 'version': '3.5.7', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+WARNING:Not Found: /favicon.ico
+DEBUG:Start from server, version: 0.9, properties: {'platform': 'Erlang/OTP', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'cluster_name': 'rabbit@chudik-K501UQ', 'capabilities': {'publisher_confirms': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'consumer_cancel_notify': True, 'per_consumer_qos': True, 'connection.blocked': True, 'consumer_priorities': True, 'authentication_failure_close': True}, 'product': 'RabbitMQ', 'version': '3.5.7'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+WARNING:Not Found: /favicon.ico
+DEBUG:Start from server, version: 0.9, properties: {'platform': 'Erlang/OTP', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'product': 'RabbitMQ', 'version': '3.5.7', 'cluster_name': 'rabbit@chudik-K501UQ', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'capabilities': {'basic.nack': True, 'consumer_cancel_notify': True, 'per_consumer_qos': True, 'connection.blocked': True, 'publisher_confirms': True, 'consumer_priorities': True, 'exchange_exchange_bindings': True, 'authentication_failure_close': True}}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /songs/profile
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 172, in songID
+    song = Song.objects.get(pk=song_id)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 965, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'profile'
+WARNING:Not Found: /favicon.ico

@@ -1,0 +1,12 @@
+{% extends "PumpManager/base.html" %}
+
+{% block title %}Регистрация{% endblock %}
+
+{% block content %}
+<form action="" method="post">
+  {% csrf_token %}
+  <!-- as_p для того, чтобы каждый элемент формы был с новой строки -->
+  {{ form.as_p }}
+  <button type="submit">Зарегистрироваться</button>
+</form>
+{%endblock%}

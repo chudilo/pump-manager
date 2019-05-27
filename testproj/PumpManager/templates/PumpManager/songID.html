@@ -1,0 +1,33 @@
+{% extends "PumpManager/base.html" %}
+
+{% block title %}Песня!{% endblock %}
+{% block header %}Песня!{%endblock%}
+
+
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-6">This is {{song.name}} page.</div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">BPM = {{song.bpm}}; autor = {{song.author}}</div>
+</div>
+
+<div class="row" style="margin-left:15px">
+<div class="col text-right" style="font-weight: bold">Уровни</div>
+
+<div class="col-md-8" style="font-weight: bold">Лучший счёт</div>
+</div>
+{% for item_from_list_one, item_from_list_two in context.pairs %}
+    <div class="row" style="margin-left:15px">
+        <div class="col text-right">{{item_from_list_one.type}}-{{item_from_list_one.lvl}}</div>
+
+        <div class="col-md-8 ">{{item_from_list_two.grade}} - {{item_from_list_two.score}}</div>
+
+    </div>
+
+{% endfor %}
+
+{%endblock%}

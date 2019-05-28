@@ -20,9 +20,10 @@ class Version(models.Model):
 
 
 class Location(models.Model):
-    name = models.CharField(max_length=150)
+    name = models.CharField(max_length=40)
 
-    game = models.ManyToManyField(Version, null=True, blank=True)
+    address = models.CharField(null = True, max_length=150)
+    game = models.ManyToManyField(Mix, null=True, blank=True)
 #null has no effect on many to many field
 
 class Community(models.Model):

@@ -9,8 +9,16 @@
 
 <div class="row">Hello, {{user.player.nickname}}!</div>
 
-<div class="row">How is it going?</div>
-
+<div class="row">
+    <div class="col-md-4">How is it going? </div>
+    <div class="col-md-4 text-right">
+        <form action="#" method="post">
+        {% csrf_token %}
+        <input type="submit" class="btn btn-block btn-outline-primary" value="Добавить результат" name="Update song list">
+        </form>
+    </div>
+</div>
+<a href="/profile/settings">Настройки профиля</a>
 
 <div class="row" style="margin-top:25px">
     <div class="col-md-4 ">

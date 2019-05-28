@@ -1,11 +1,13 @@
 from __future__ import absolute_import
 
+from random import randrange
+
 from django.shortcuts import render
 from django.template import loader
 from django.http import HttpResponse, Http404, HttpResponseRedirect
 
 #from PumpManager.pumpdb import convertSongs, getMixes
-from PumpManager.models import Song, Chart, Mix, Version, Stage, Player
+from PumpManager.models import Song, Chart, Mix, Version, Stage, Player, Location
 
 from django.views.generic.edit import FormView
 from django.contrib.auth.forms import UserCreationForm
@@ -84,17 +86,17 @@ class LogoutView(View):
 
 
 def index(request):
-    return render(request, 'PumpManager/base.html')
+    return render(request, 'PumpManager/index.html')
 
 def profile(request):
     return render(request, 'PumpManager/profile.html',
     {'context': {"songs_played" : len(request.user.player.stage_set.all())}})
 
+def profile_settings(request):
+    return render(request, 'PumpManager/profile-settings.html',)
+
 def uniqueProfile(request, nickname):
     return HttpResponse("You are %s." % nickname)
-
-def randomTrack(request):
-    return HttpResponse("You are randoming track.")
 
 def statistic(request):
     template = loader.get_template('PumpManager/index.html')
@@ -119,52 +121,74 @@ for song in songs:
         ).save()
 '''
 
-
 def songs(request):
+    context = ''
+    songs =  Song.objects.all()
+    charts = []
+    for song in songs:
+        charts.append(song.chart_set.all())
+
     if request.method == 'GET':
         print("GET_Method")
         #return render(request, 'PumpManager/songs.html', {'songs': Song.objects.all()})
-
     elif request.method == 'POST':
-        '''
-        print("POST")
-        #songs = pumpdb.getSongs()
-        name = ''
-        #if request.user.is_authenticated():
-        name = request.user.username
-        #else:
-        #    name = "anonym"
-        '''
+        #print(dir(request.POST))
+        if "Update song list" in request.POST.keys():
+            upgr_db.delay()
 
-        '''
-        songs = pumpdb.convertSongs()
-        for song in songs:
-            print(song)
-            s = Song(   name=song['name'],
-                        author = song['author'],
-                        bpm = song['bpm'],
-                        type = song['type'],
-                        cathegory = song['cathegory'],
-                        )
-            s.save()
+        elif "Filter songs" in request.POST.keys():
+            if request.POST["type"] != "---":
+                songs = songs.filter(type = request.POST["type"])#.filter
+            if request.POST["genre"] != "---":
+                songs = songs.filter(cathegory = request.POST["genre"])
 
-            for chart in song['charts']:
-                c = Chart(  lvl=chart['lvl'],
-                            type=chart['type'],
-                            song=s,
-                            )
-                c.save()
-        '''
-        print("POST Method")
-        #update_db.delay()
-        #long_work.delay(2,3)
-        #a = add.delay(100,100)
-        #print(a.get())
-        upgr_db.delay()
+            charts = []
+            if request.POST["mode"] == "Co-op":
+                for song in songs:
+                    res = song.chart_set.filter(type = "C")
+                    if res:
+                        charts.append(res)
+            else:
+                if request.POST["min_diff"] != "---" and request.POST["max_diff"] != "---":
+                    for song in songs:
+                        res = song.chart_set.filter(lvl__range =
+                        (int(request.POST["min_diff"]), int(request.POST["max_diff"])))
+                        if res:
+                            charts.append(res)
+                elif request.POST["min_diff"] != "---":
+                    pass
+                elif request.POST["max_diff"] != "---":
+                    pass
+                else:
+                    for song in songs:
+                        charts.append(song.chart_set.all())
 
-    return render(request, 'PumpManager/songs.html', {'songs': Song.objects.all()})
+            conv_charts = []
+            if request.POST["mode"] == "Single":
+                for song in charts:
+                    res = song.filter(type = "S")
+                    if res:
+                        conv_charts.append(res)
+                charts = conv_charts
+            elif request.POST["mode"] == "Double":
+                for song in charts:
+                    res = song.filter(type = "D")
+                    if res:
+                        conv_charts.append(res)
+                charts = conv_charts
 
-        #return render(request, 'PumpManager/songs.html', {'songs': "sosi_bibu"})
+            songs = []
+            for chart in charts: #array of chart arrays
+                songs.append(Song.objects.get(name = chart[0].song.name))
+
+            print(songs)
+    context = dict(pairs = zip(songs, charts))
+
+    return render(request, 'PumpManager/songs.html',
+        {'songs': songs,
+        'charts': charts,
+        'context': context})
+
 
 
 def songID(request, song_id):
@@ -221,4 +245,64 @@ def mixID(request, mix_id):
                         {'mix': Mix.objects.get(pk=mix_id)})
 
 
+def random(request):
+    if request.method == "GET":
+        return render (request, 'PumpManager/random.html',
+                        {"message" : "",
+                        "result_songs" : [],
+                         "versions" : Mix.objects.all()})
+
+    elif request.method == "POST":
+        #print(request.POST["mod"], "type", "genre", "min_diff", "max_diff"))
+        for key in request.POST.keys():
+            print(request.POST[key])
+
+        songs = Song.objects.all()
+        if request.POST["type"] != "---":
+            songs = songs.filter(type = request.POST["type"])#.filter
+        if request.POST["genre"] != "---":
+            songs = songs.filter(cathegory = request.POST["genre"])
+
+        charts = []
+        if request.POST["mode"] == "Co-op":
+            for song in songs:
+                res = song.chart_set.filter(type = "C")
+                if res:
+                    charts.append(res)
+        else:
+            if request.POST["min_diff"] != "---" and request.POST["max_diff"] != "---":
+                for song in songs:
+                    res = song.chart_set.filter(lvl__range =
+                    (int(request.POST["min_diff"]), int(request.POST["max_diff"])))
+                    if res:
+                        charts.append(res)
+            elif request.POST["min_diff"] != "---":
+                pass
+            elif request.POST["max_diff"] != "---":
+                pass
+            else:
+                charts.append(Chart.objects.all())
+
+        conv_charts = []
+        if request.POST["mode"] == "Single":
+            for song in charts:
+                conv_charts.append(song.filter(type = "S"))
+            charts = conv_charts
+        elif request.POST["mode"] == "Double":
+            for song in charts:
+                conv_charts.append(song.filter(type = "D"))
+            charts = conv_charts
+
+        res_song_charts = charts[randrange(len(charts))]
+        result = res_song_charts[randrange(res_song_charts.count())]
+            #if request.POST["min_diff"] != "---":
+            #__gte __lte
+        return render (request, 'PumpManager/random.html',
+                        {"message" : "Ваш результат:",
+                         "result_songs" : songs,
+                         "versions" : Mix.objects.all(),
+                         "result" : result})
+
+def locations(request):
+    return render(request, "PumpManager/locations.html", {"locations": Location.objects.all()})
 # Create your views here.

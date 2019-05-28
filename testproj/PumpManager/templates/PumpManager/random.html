@@ -1,13 +1,13 @@
 {% extends "PumpManager/base.html" %}
 {%load static%}
 
-{% block title %}PM ~ Список песен{% endblock %}
-{% block header %}Список песен{%endblock%}
+{%block title%}PM ~ Случайный трек{% endblock%}
 
-
+{%block header%}Случайный трек{%endblock%}
+{%block subheader%}Генерация случайного чарта на основе выбранных фильтров
+версии, сложностей и режимов{% endblock %}
 
 {% block content %}
-
 <div class="row">
 <div class="col-md-6">
 <form action="" method="post">
@@ -124,37 +124,39 @@
     </div>
     </div>
     <div class="col-md-6">
-    <input type="submit" class="btn btn-block btn-outline-primary" value="Отфильтровать список" name="Filter songs">
+    <input type="submit" class="btn btn-block btn-outline-primary" value="Подкинуть монетку!" name="Update song list">
     </div>
 </form>
-<div class="row">
-    <div class="col-md-4">
-        <img src="{%static 'PumpManager/01-ALL.png' %}" class="img">
-    </div>
+</div>
+<div class="col-md-4">
+    <img src="{%static 'PumpManager/02-RANDOM.png' %}" class="img">
+</div>
 </div>
 
-</div>
-<div class="col-md-5" style = "margin-left: 10px">
-    <div class="row">
-        <form action="" method="post">
-        {% csrf_token %}
-            <input type="submit" class="btn btn-block btn-outline-primary" value="Обновление списка" name="Update song list">
-        <!--<button>Кнопка </button>-->
-        </form>
-    </div>
-    {% for song, charts in context.pairs %}
-    <div class="row" style = "border: 3px solid #fff; outline: 1px solid #000">
-            <div class="col-md-6">
-                <a class="p-2 text-dark" href="/songs/{{song.id}}">{{ song.name }} </a>
-            </div>
+<p>{{message}}</p>
+<p> <a href="/songs/{{result.song.id}}" style = "margin">{{result.song.name}}<a> {{result.type}}{{result.lvl}}</p>
+<!--
+{% for song in result_songs %}
+<p> {{song}}
+    {%for chart in song.chart%}
+    {%endfor%}
+</p>
+{%endfor%}
+-->
 
-            <div class="col-md-6">
-                {% for chart in charts %}
-                  {{chart.type}}{{chart.lvl}}
-                {% endfor %}
-            </div>
-
-    </div>
-    {% endfor %}
-</div>
-{%endblock%}
+<!--
+ <div class="row"> На этом сайте можно найти: </div>
+ <div class="row">
+     <a href="/lists">Базу знаний</a>
+: информация о всех треках, сложностях, версиях игры и локациях.
+ </div>
+ <div class="row">
+     <a href="#">Выбор случайных треков</a>: тут что-то будет, короче,
+     Я ЧЕСТНО СДЕЛАЮ.
+ </div>
+ <div class="row">
+     А также вы можете <a href="/register" style="margin-left: 7px">зарегестрироваться</a>,
+     чтобы фиксировать свои результаты и обозначать своё присутсвие на локациях.
+ </div>
+-->
+ {%endblock%}

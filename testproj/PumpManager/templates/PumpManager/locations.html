@@ -1,0 +1,21 @@
+{% extends "PumpManager/base.html" %}
+
+{%block title%}PM ~ Локации{%endblock%}
+
+{%block content%}
+    {%for location in locations%}
+    <div class="row" style="outline: 1px solid #000; padding: 3px">
+        <div class="col-md-6">
+            <div class="row">{{location.name}}</div>
+            <div class="row">{{location.address}}</div>
+        </div>
+        <div class="col-md-6">
+            {%for mix in location.game.all%}
+                <div class="row">{{mix.name}}</div>
+            {%endfor%}
+        </div>
+    </div>
+    {%endfor%}
+
+
+{%endblock%}

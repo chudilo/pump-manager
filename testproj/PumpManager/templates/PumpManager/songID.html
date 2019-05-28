@@ -8,11 +8,14 @@
 {% block content %}
 
 <div class="row">
-    <div class="col-md-6">This is {{song.name}} page.</div>
+    <div class="col-md-6"> <h2>{{song.name}}</h2> </div>
 </div>
 
 <div class="row">
     <div class="col-md-6">BPM = {{song.bpm}}; autor = {{song.author}}</div>
+</div>
+<div class="row">
+    <div class="col-md-6">type = {{song.type}}; genre = {{song.cathegory}}</div>
 </div>
 
 <div class="row" style="margin-left:15px">

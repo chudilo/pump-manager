@@ -1,0 +1,25 @@
+{% extends "PumpManager/base.html" %}
+
+{% block title %}Версии{% endblock %}
+{% block header %}Версии игры{%endblock%}
+
+
+
+{% block content %}
+{%if user.is_authenticated %}
+<form action="#" method="post">
+{% csrf_token %}
+<input type="submit" class="btn btn-block btn-outline-primary" value="Обновление списка" name="Обновление списка">
+</form>
+{%endif%}
+{% for mix in mixes %}
+<div class="row">
+    <div class="col-md-4">
+        <a class="p-2 text-dark" href="/mixes/{{mix.pk}}">Pump it up {{ mix.name }} </a>
+     </div>
+</div>
+{% endfor %}
+
+{%endblock%}
+
+/<nickname>

@@ -1,0 +1,46 @@
+{% extends "PumpManager/base.html" %}
+
+{% block title %}{{user.player.nickname}} профиль{% endblock %}
+{% block header %}Личный профиль{%endblock%}
+
+{%block subheader%}Ваш личный профиль{%endblock%}
+
+{% block content %}
+
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="row"><h3>{{user.player.nickname}}</h3></div>
+        <div class="row"><a href="/profile/settings">Настройки профиля</a></div>
+        <div class="row" style="margin-top:20px">
+            <form action="#" method="post">
+            {% csrf_token %}
+                <input type="submit" class="btn btn-block btn-outline-primary" value="Обновление списка" name="Update song list">
+            </form>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="row">Сыграно песен: {{context.songs_played}}</div>
+        <div class="row">Средняя оценка: {{overage_grade}} --- Получена раз: {{overage_grade_times}}</div>
+    </div>
+
+
+    <div class="col-md-5">
+        <div class="row">
+            <a type="submit" class="btn btn-block btn-outline-primary" href ="add">Добавить результат</a>
+        </div>
+        <p></p>
+        {%if user.player.stage_set.all%}
+            {%for stage in user.player.stage_set.all%}
+            <div class="row" style="border: 1px solid #fff; outline: 1px solid #000">
+                <div class="col text-right">{{stage}} </div>
+            </div>
+            {%endfor%}
+        {%endif%}
+    </div>
+</div>
+
+
+
+{%endblock%}

@@ -1,0 +1,58 @@
+{% extends "PumpManager/base.html" %}
+{% load static %}
+{%block title%}PM ~ Добавление результата{% endblock%}
+
+{%block header%}Добавление результата{%endblock%}
+{%block subheader%}Ручное добавление результатов и ссылки на фотографию результата.{% endblock %}
+
+
+{%block content%}
+<div class="row">
+    <div class="col-md-6">
+        <form action="" method="post">
+        {% csrf_token %}
+            <p></p>
+            <div class="row">
+                <div class="col-md-8">
+                    <select name="chart" class="form-control">
+                        {%for chart in charts%}
+                            <option>{{chart}}</option>
+                        {%endfor%}
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <select name="grade" class="form-control">
+                        <option>SSS</option>
+                        <option>SS</option>
+                        <option>S</option>
+                        <option>A+</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                        <option>D</option>
+                        <option>F</option>
+                    </select>
+                </div>
+            </div>
+            <p></p>
+            <div class="row">
+            <label for="inputPassword" class="col-md2 control-label">Результат</label>
+
+                  <input name="result" class="form-control" id="inputResult" placeholder="1000000">
+              </div>
+            <p></p>
+            <div class="row">
+            <label for="inputPassword" class="col-md2 control-label">Ссылка</label>
+                  <input name="link" class="form-control" id="inputLink" placeholder="Ссылка">
+              </div>
+            <p></p>
+            <div class="row">
+                <input type="submit" class="btn btn-block btn-outline-primary" value="Добавить результат" name="Update song list">
+            </div>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <img src="{%static 'PumpManager/NEW_TUNES.png' %}" class="img">
+    </div>
+</div>
+{%endblock%}

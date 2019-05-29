@@ -1,0 +1,19 @@
+{% extends "PumpManager/base.html" %}
+
+{% block title %}Микс{% endblock %}
+{% block header %}Микс!{%endblock%}
+
+
+
+{% block content %}
+<div class="row"> <h2>{{mix.name}}</h2> </div>
+<div class="row"> <h4>Список песен:</h4> </div>
+{% for song in mix.song_set.all %}
+    <div class="row" style = "border: 3px solid #fff; outline: 1px solid #000">
+            <div class="col-md-6">
+                <a class="p-2 text-dark" href="/songs/{{song.id}}">{{ song.name }} </a>
+            </div>
+
+    </div>
+{%endfor%}
+{%endblock%}

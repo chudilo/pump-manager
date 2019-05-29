@@ -1,0 +1,167 @@
+{% extends "PumpManager/base.html" %}
+{%load static%}
+
+{% block title %}PM ~ Список песен{% endblock %}
+{% block header %}Список песен{%endblock%}
+
+
+
+{% block content %}
+
+<div class="row">
+<div class="col-md-6">
+<form action="" method="post">
+{% csrf_token %}
+    <div class="row">Версия автомата
+        <select name="version" class="form-control">
+            <option>---</option>
+            {%for version in versions.reverse%} <!-- this is mix, actually -->
+            <option>{{version.name}} </option>
+            {%endfor%}
+
+    </select>
+    </div>
+
+    <div class="row">Режим
+    <select name="mode" class="form-control">
+        <option>---</option>
+        <option>Single</option>
+        <option>Double</option>
+        <option>Co-op</option>
+    </select>
+    </div>
+
+    <div class="row">Тип чарта
+    <select name="type" class="form-control">
+        <option>---</option>
+        <option>Arcade</option>
+        <option>Full Song</option>
+        <option>Short Cut</option>
+        <option>Remix</option>
+    </select>
+    </div>
+
+    <div class="row">Тип музыки
+    <select name="genre"class="form-control">
+        <option>---</option>
+        <option>ORIGINAL</option>
+        <option>WORLD</option>
+        <option>K-POP</option>
+        <option>J-MUSIC</option>
+        <option>XROSS</option>
+    </select>
+    </div>
+
+    <div class="row">
+    <div class="col-md-3">Сложность</div>
+    <div class="col-md-2 text-right">От</div>
+    <div class="col-md-2">
+    <select name="min_diff" class="form-control">
+        <option>---</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+    </select>
+    </div>
+    <div class="col-md-2 text-right">До</div>
+    <div class="col-md-2">
+        <select name= "max_diff" class="form-control">
+            <option>---</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+        </select>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <input type="submit" class="btn btn-block btn-outline-primary"  value="Отфильтровать список" name="Filter songs">
+    </div>
+</form>
+<div class="row">
+    <div class="col-md-4">
+        <img src="{%static 'PumpManager/01-ALL.png' %}" class="img">
+    </div>
+</div>
+
+</div>
+<div class="col-md-5" style = "margin-left: 10px">
+    <div class="row" style="margin-bottom: 10px;">
+        <div class="col-md-6">
+        {%if user.is_authenticated %}
+        <form action="" method="post">
+        {% csrf_token %}
+            <input type="submit" class="btn btn-block btn-outline-primary" value="Обновление списка" name="Update song list">
+        <!--<button>Кнопка </button>-->
+        </form>
+        {%endif%}
+        </div>
+            <div class="col-md-6">
+                {{message}}
+            </div>
+    </div>
+    {% for song, charts in context.pairs %}
+    <div class="row" style = "border: 3px solid #fff; outline: 1px solid #000">
+            <div class="col-md-6">
+                <a class="p-2 text-dark" href="/songs/{{song.id}}">{{ song.name }} </a>
+            </div>
+
+            <div class="col-md-6">
+                {% for chart in charts %}
+                  {{chart.type}}{{chart.lvl}}
+                {% endfor %}
+            </div>
+
+    </div>
+    {% endfor %}
+</div>
+{%endblock%}

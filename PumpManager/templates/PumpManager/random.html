@@ -1,0 +1,167 @@
+{% extends "PumpManager/base.html" %}
+{%load static%}
+
+{%block title%}PM ~ Случайный трек{% endblock%}
+
+{%block header%}Случайный трек{%endblock%}
+{%block subheader%}Генерация случайного чарта на основе выбранных фильтров
+версии, сложностей и режимов{% endblock %}
+
+{% block content %}
+<div class="row">
+<div class="col-md-6">
+<form action="" method="post">
+{% csrf_token %}
+    <div class="row">Версия автомата
+        <select name="version" class="form-control">
+            <option>---</option>
+            {%for version in versions.reverse%} <!-- this is mix, actually -->
+            <option>{{version.name}} </option>
+            {%endfor%}
+
+    </select>
+    </div>
+
+    <div class="row">Режим
+    <select name="mode" class="form-control">
+        <option>---</option>
+        <option>Single</option>
+        <option>Double</option>
+        <option>Co-op</option>
+    </select>
+    </div>
+
+    <div class="row">Тип чарта
+    <select name="type" class="form-control">
+        <option>---</option>
+        <option>Arcade</option>
+        <option>Full Song</option>
+        <option>Short Cut</option>
+        <option>Remix</option>
+    </select>
+    </div>
+
+    <div class="row">Тип музыки
+    <select name="genre"class="form-control">
+        <option>---</option>
+        <option>ORIGINAL</option>
+        <option>WORLD</option>
+        <option>K-POP</option>
+        <option>J-MUSIC</option>
+        <option>XROSS</option>
+    </select>
+    </div>
+
+    <div class="row">
+    <div class="col-md-3">Сложность</div>
+    <div class="col-md-2 text-right">От</div>
+    <div class="col-md-2">
+    <select name="min_diff" class="form-control">
+        <option>---</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+    </select>
+    </div>
+    <div class="col-md-2 text-right">До</div>
+    <div class="col-md-2">
+        <select name= "max_diff" class="form-control">
+            <option>---</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+        </select>
+    </div>
+    </div>
+    <div class="col-md-6">
+    <input type="submit" class="btn btn-block btn-outline-primary" value="Подкинуть монетку!" name="Update song list">
+    </div>
+</form>
+</div>
+<div class="col-md-4">
+    <img src="{%static 'PumpManager/02-RANDOM.png' %}" class="img">
+</div>
+</div>
+{% if result %}
+<p>{{message}}</p>
+<p> <a href="/songs/{{result.song.id}}" style = "margin">{{result.song.name}}<a> {{result.type}}{{result.lvl}}</p>
+{%else%}
+<p></p>
+<p>По вашим фильтрам не найдено ни одного чарта.</p>
+{%endif%}
+
+<!--
+{% for song in result_songs %}
+<p> {{song}}
+    {%for chart in song.chart%}
+    {%endfor%}
+</p>
+{%endfor%}
+-->
+
+<!--
+ <div class="row"> На этом сайте можно найти: </div>
+ <div class="row">
+     <a href="/lists">Базу знаний</a>
+: информация о всех треках, сложностях, версиях игры и локациях.
+ </div>
+ <div class="row">
+     <a href="#">Выбор случайных треков</a>: тут что-то будет, короче,
+     Я ЧЕСТНО СДЕЛАЮ.
+ </div>
+ <div class="row">
+     А также вы можете <a href="/register" style="margin-left: 7px">зарегестрироваться</a>,
+     чтобы фиксировать свои результаты и обозначать своё присутсвие на локациях.
+ </div>
+-->
+ {%endblock%}

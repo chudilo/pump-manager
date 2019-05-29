@@ -1,0 +1,21 @@
+{% extends "PumpManager/base.html" %}
+{%load static%}
+{% block title %}PM ~ База знаний{% endblock %}
+{% block header %}База знаний{%endblock%}
+
+{% block content %}
+  <div class="card-deck mb-6 text-center">
+    <div class="card-body mb-3 shadow-sm">
+      <a class='btn' href='/songs'><img src='{%static "PumpManager/01-ALL.png" %}'></a>
+    </div>
+
+
+    <div class="card-body mb-3 shadow-sm">
+       <a class='btn' href='/mixes'><img src='{%static "PumpManager/01-ALL.png" %}'></a>
+    </div>
+
+    <div class="card-body mb-3 shadow-sm">
+      <a class='btn' href='/locations'><img src='{%static "PumpManager/01-ALL.png" %}'></a>
+    </div>
+  </div>
+{%endblock%}

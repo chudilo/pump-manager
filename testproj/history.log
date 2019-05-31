@@ -2658,3 +2658,1233 @@ DEBUG:Start from server, version: 0.9, properties: {'platform': 'Erlang/OTP', 'i
 DEBUG:Open OK!
 DEBUG:using channel_id: 1
 DEBUG:Channel open
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 191, in songs
+    'version': version})
+NameError: name 'version' is not defined
+DEBUG:Start from server, version: 0.9, properties: {'capabilities': {'exchange_exchange_bindings': True, 'publisher_confirms': True, 'per_consumer_qos': True, 'basic.nack': True, 'consumer_priorities': True, 'authentication_failure_close': True, 'connection.blocked': True, 'consumer_cancel_notify': True}, 'cluster_name': 'rabbit@chudik-K501UQ', 'platform': 'Erlang/OTP', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'product': 'RabbitMQ', 'version': '3.5.7'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'capabilities': {'publisher_confirms': True, 'authentication_failure_close': True, 'exchange_exchange_bindings': True, 'connection.blocked': True, 'per_consumer_qos': True, 'basic.nack': True, 'consumer_priorities': True, 'consumer_cancel_notify': True}, 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'platform': 'Erlang/OTP', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'product': 'RabbitMQ', 'version': '3.5.7', 'cluster_name': 'rabbit@chudik-K501UQ'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'cluster_name': 'rabbit@chudik-K501UQ', 'platform': 'Erlang/OTP', 'capabilities': {'consumer_priorities': True, 'basic.nack': True, 'authentication_failure_close': True, 'exchange_exchange_bindings': True, 'per_consumer_qos': True, 'connection.blocked': True, 'consumer_cancel_notify': True, 'publisher_confirms': True}, 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'version': '3.5.7', 'product': 'RabbitMQ'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+WARNING:Not Found: /favicon.ico
+DEBUG:Start from server, version: 0.9, properties: {'capabilities': {'authentication_failure_close': True, 'per_consumer_qos': True, 'basic.nack': True, 'consumer_priorities': True, 'consumer_cancel_notify': True, 'exchange_exchange_bindings': True, 'connection.blocked': True, 'publisher_confirms': True}, 'cluster_name': 'rabbit@chudik-K501UQ', 'version': '3.5.7', 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'platform': 'Erlang/OTP', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'product': 'RabbitMQ'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+WARNING:Not Found: /favicon.ico
+DEBUG:Start from server, version: 0.9, properties: {'product': 'RabbitMQ', 'cluster_name': 'rabbit@chudik-K501UQ', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'platform': 'Erlang/OTP', 'version': '3.5.7', 'capabilities': {'authentication_failure_close': True, 'exchange_exchange_bindings': True, 'basic.nack': True, 'per_consumer_qos': True, 'consumer_priorities': True, 'connection.blocked': True, 'publisher_confirms': True, 'consumer_cancel_notify': True}, 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 128, in songs
+    for song in songs:
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 268, in __iter__
+    self._fetch_all()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: database is locked
+WARNING:Not Found: /favicon.ico
+DEBUG:Start from server, version: 0.9, properties: {'platform': 'Erlang/OTP', 'capabilities': {'consumer_priorities': True, 'per_consumer_qos': True, 'authentication_failure_close': True, 'consumer_cancel_notify': True, 'publisher_confirms': True, 'exchange_exchange_bindings': True, 'connection.blocked': True, 'basic.nack': True}, 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/', 'version': '3.5.7', 'cluster_name': 'rabbit@chudik-K501UQ', 'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'product': 'RabbitMQ'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+DEBUG:Start from server, version: 0.9, properties: {'copyright': 'Copyright (C) 2007-2015 Pivotal Software, Inc.', 'cluster_name': 'rabbit@chudik-K501UQ', 'platform': 'Erlang/OTP', 'product': 'RabbitMQ', 'version': '3.5.7', 'capabilities': {'basic.nack': True, 'authentication_failure_close': True, 'consumer_priorities': True, 'publisher_confirms': True, 'per_consumer_qos': True, 'connection.blocked': True, 'consumer_cancel_notify': True, 'exchange_exchange_bindings': True}, 'information': 'Licensed under the MPL.  See http://www.rabbitmq.com/'}, mechanisms: ['PLAIN', 'AMQPLAIN'], locales: ['en_US']
+DEBUG:Open OK!
+DEBUG:using channel_id: 1
+DEBUG:Channel open
+ERROR:Internal Server Error: /songs/827
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: PumpManager_stage.url
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 207, in songID
+    if res:
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 272, in __bool__
+    self._fetch_all()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: PumpManager_stage.url
+ERROR:Internal Server Error: /songs/1164
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: PumpManager_stage.url
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 207, in songID
+    if res:
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 272, in __bool__
+    self._fetch_all()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 1186, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 54, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1065, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/backends/sqlite3/base.py", line 298, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: PumpManager_stage.url
+ERROR:Internal Server Error: /random/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 307, in random
+    res_song_charts = charts[randrange(len(charts))]
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/random.py", line 186, in randrange
+    raise ValueError("empty range for randrange()")
+ValueError: empty range for randrange()
+ERROR:Internal Server Error: /random/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/utils/datastructures.py", line 77, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'max[diff'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 293, in random
+    res = song.chart_set.filter(lvl__lte = int(request.POST["max[diff"]))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/utils/datastructures.py", line 79, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'max[diff'
+ERROR:Internal Server Error: /songs/964
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 229, in songID
+    return render(request, 'PumpManager/songID.html', {'song': song, 'context': context})
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/defaulttags.py", line 809, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'song.mix.all()'
+ERROR:Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 76, in form_valid
+    login(self.request, self.user)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 132, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/auth/models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 758, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/home/chudik/dbproject/testproj/PumpManager/models.py", line 54, in save_user_profile
+    instance.profile.save()
+AttributeError: 'User' object has no attribute 'profile'
+WARNING:Forbidden (CSRF token missing or incorrect.): /login/
+WARNING:Not Found: /lists/01-ALL.png
+WARNING:Not Found: /lists/01-ALL.png
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 56, in form_valid
+    raise Exception
+Exception
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 56, in form_valid
+    raise Exception
+Exception
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 57, in form_valid
+    form.save()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/auth/forms.py", line 121, in save
+    user.save()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/auth/base_user.py", line 73, in save
+    super().save(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 718, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 758, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/home/chudik/dbproject/testproj/PumpManager/models.py", line 53, in create_user_profile
+    print(**kwargs)
+TypeError: 'using' is an invalid keyword argument for this function
+WARNING:Forbidden (CSRF token missing or incorrect.): /register/
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+TypeError: form_valid() missing 1 required positional argument: 'request'
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/edit.py", line 66, in get_context_data
+    kwargs['form'] = self.get_form()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/views/generic/edit.py", line 33, in get_form
+    return form_class(**self.get_form_kwargs())
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/forms/models.py", line 285, in __init__
+    raise ValueError('ModelForm has no model class specified.')
+ValueError: ModelForm has no model class specified.
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 50, in register
+    Player(nickname = request.POST['nickname'], user = f)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/base.py", line 467, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py", line 300, in __set__
+    super().__set__(instance, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/related_descriptors.py", line 210, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "<UserCreationForm bound=True, valid=True, fields=(username;password1;password2)>": "Player.user" must be a "User" instance.
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 51, in register
+    messages.success(request, 'Account created successfully')
+NameError: name 'messages' is not defined
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 55, in register
+    return redirect('/')
+NameError: name 'redirect' is not defined
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 116, in profile
+    {'context': {"songs_played" : len(request.user.player.stage_set.all())}})
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 993, in render
+    return render_value_in_context(output, context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 972, in render_value_in_context
+    value = str(value)
+  File "/home/chudik/dbproject/testproj/PumpManager/models.py", line 93, in __str__
+    self.grade + " - " + self.score
+AttributeError: 'NoneType' object has no attribute 'song'
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 116, in profile
+    {'context': {"songs_played" : len(request.user.player.stage_set.all())}})
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 993, in render
+    return render_value_in_context(output, context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 972, in render_value_in_context
+    value = str(value)
+  File "/home/chudik/dbproject/testproj/PumpManager/models.py", line 93, in __str__
+    self.grade + " - " + self.score
+AttributeError: 'NoneType' object has no attribute 'song'
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 116, in profile
+    {'context': {"songs_played" : len(request.user.player.stage_set.all())}})
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 993, in render
+    return render_value_in_context(output, context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 972, in render_value_in_context
+    value = str(value)
+  File "/home/chudik/dbproject/testproj/PumpManager/models.py", line 93, in __str__
+    self.grade + " - " + self.score
+AttributeError: 'NoneType' object has no attribute 'song'
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 116, in profile
+    {'context': {"songs_played" : len(request.user.player.stage_set.all())}})
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 993, in render
+    return render_value_in_context(output, context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 972, in render_value_in_context
+    value = str(value)
+  File "/home/chudik/dbproject/testproj/PumpManager/models.py", line 93, in __str__
+    self.grade + " - " + self.score
+AttributeError: 'NoneType' object has no attribute 'song'
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /admin/PumpManager/stage/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/options.py", line 564, in get_field
+    return self.fields_map[field_name]
+KeyError: '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/admin/utils.py", line 278, in lookup_field
+    f = _get_non_gfk_field(opts, name)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/admin/utils.py", line 309, in _get_non_gfk_field
+    field = opts.get_field(name)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/options.py", line 566, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Stage has no field named '__str__'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 154, in _get_response
+    response = response.render()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/admin/templatetags/base.py", line 33, in render
+    return super().render(context)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/admin/templatetags/admin_list.py", line 341, in result_list
+    'results': list(results(cl))}
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/admin/templatetags/admin_list.py", line 318, in results
+    yield ResultList(None, items_for_result(cl, res, None))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/admin/templatetags/admin_list.py", line 309, in __init__
+    super().__init__(*items)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/admin/templatetags/admin_list.py", line 228, in items_for_result
+    f, attr, value = lookup_field(field_name, result, cl.model_admin)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/contrib/admin/utils.py", line 291, in lookup_field
+    value = attr()
+  File "/home/chudik/dbproject/testproj/PumpManager/models.py", line 93, in __str__
+    self.grade + " - " + self.score
+AttributeError: 'NoneType' object has no attribute 'song'
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 122, in profile_add
+    return render(request, 'PumpManager/profile-add.html',)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: PumpManager/profile-add.html
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 122, in profile_add
+    return render(request, 'PumpManager/profile-add.html',)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 483, in parse
+    self.unclosed_block_tag(parse_until)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 544, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 9: 'block'. Looking for one of: endblock.
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 128, in profile_add
+    elif request.methond == "POST":
+AttributeError: 'WSGIRequest' object has no attribute 'methond'
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 133, in profile_add
+    Song.objects.get(name = request.POST['chart'][:-6])).chart_set.get(lvl = request.POST['chart'][:2],
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1161, in build_filter
+    arg, value = filter_expr
+TypeError: 'Song' object is not iterable
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 134, in profile_add
+    Song.objects.get(name = request.POST['chart'][:-6])).chart_set.get(lvl = request.POST['chart'][:2],
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1161, in build_filter
+    arg, value = filter_expr
+TypeError: 'Song' object is not iterable
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 131, in profile_add
+    type = request.POST['chart'][len(request.POST['chart'])-4:-3])
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 390, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 844, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 862, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1263, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1287, in _add_q
+    split_subq=split_subq,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1225, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/sql/query.py", line 1096, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 1807, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'An'
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 130, in profile_add
+    chart = song.chart_set.get(lvl = int(request.POST['chart'][:2]),
+ValueError: invalid literal for int() with base 10: 'An'
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 130, in profile_add
+    chart = song.chart_set.get(lvl = int(request.POST['chart'][:2]), type = request.POST['chart'][len(request.POST['chart'])-4:-3])
+ValueError: invalid literal for int() with base 10: 'An'
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 133, in profile_add
+    chart = song.chart_set.get(lvl = int(request.POST['chart'][:2]), type = request.POST['chart'][len(request.POST['chart'])-4:-3])
+ValueError: invalid literal for int() with base 10: 'An'
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 133, in profile_add
+    chart = song.chart_set.get(lvl = int(request.POST['chart'][:-2]), type = request.POST['chart'][len(request.POST['chart'])-4:-3])
+ValueError: invalid literal for int() with base 10: 'Anguished Unmaking: S-'
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 133, in profile_add
+    chart = song.chart_set.get(lvl = int(request.POST['chart'][:-2]), type = request.POST['chart'][len(request.POST['chart'])-4:-3])
+ValueError: invalid literal for int() with base 10: 'Anguished Unmaking: S-'
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 133, in profile_add
+    chart = song.chart_set.get(lvl = int(request.POST['chart'][:-2]), type = request.POST['chart'][len(request.POST['chart'])-4:-3])
+ValueError: invalid literal for int() with base 10: 'Anguished Unmaking: S-'
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 137, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view PumpManager.views.profile_add didn't return an HttpResponse object. It returned None instead.
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 53, in register
+    raise Exception
+Exception
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 122, in profile
+    for song in user.player.stage_set.all():
+NameError: name 'user' is not defined
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 128, in profile
+    if grade[key] > max[max_grade]:
+TypeError: 'int' object is not subscriptable
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 128, in profile
+    if grade[key] > max_len[max_grade]:
+NameError: name 'max_len' is not defined
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 128, in profile
+    if grade[key] > max_times[max_grade]:
+TypeError: 'int' object is not subscriptable
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 150, in profile_add
+    chart = song.chart_set.get(lvl = int(request.POST['chart'][-2:]), type = request.POST['chart'][len(request.POST['chart'])-4:-3])
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 403, in get
+    (self.model._meta.object_name, num)
+PumpManager.models.Chart.MultipleObjectsReturned: get() returned more than one Chart -- it returned 2!
+ERROR:Internal Server Error: /profile/add
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 150, in profile_add
+    chart = song.chart_set.get(lvl = int(request.POST['chart'][-2:]), type = request.POST['chart'][len(request.POST['chart'])-4:-3])
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/db/models/query.py", line 403, in get
+    (self.model._meta.object_name, num)
+PumpManager.models.Chart.MultipleObjectsReturned: get() returned more than one Chart -- it returned 2!
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 124, in profile
+    for song in request.user.player.stage_set.all():
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/utils/functional.py", line 214, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute 'player'
+ERROR:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 64, in register
+    if request.user.is_authenticated():
+TypeError: 'bool' object is not callable
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /profile/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 127, in profile
+    for song in request.user.player.stage_set.all():
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/utils/functional.py", line 214, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'AnonymousUser' object has no attribute 'player'
+ERROR:Internal Server Error: /songs/700
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 295, in songID
+    context = dict(pairs = zip(chart_ls, message_ls))
+UnboundLocalError: local variable 'chart_ls' referenced before assignment
+ERROR:Internal Server Error: /songs/701
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 295, in songID
+    context = dict(pairs = zip(chart_ls, message_ls))
+UnboundLocalError: local variable 'chart_ls' referenced before assignment
+ERROR:Internal Server Error: /songs/701
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 296, in songID
+    context = dict(pairs = zip(chart_ls, message_ls))
+UnboundLocalError: local variable 'message_ls' referenced before assignment
+ERROR:Internal Server Error: /songs/701
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 296, in songID
+    context = dict(pairs = zip(chart_ls, message_ls))
+UnboundLocalError: local variable 'message_ls' referenced before assignment
+ERROR:Internal Server Error: /songs/698
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 296, in songID
+    context = dict(pairs = zip(chart_ls, message_ls))
+UnboundLocalError: local variable 'message_ls' referenced before assignment
+WARNING:Not Found: /songs/698
+WARNING:Not Found: /songs/698
+WARNING:Not Found: /songs/698
+WARNING:Not Found: /songs/700
+WARNING:Not Found: /songs/700
+WARNING:Not Found: /songs/700
+WARNING:Not Found: /songs/698
+WARNING:Not Found: /songs/699
+WARNING:Not Found: /songs/699
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 270, in songs
+    'versions': Mix.objects.all()})
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/engine.py", line 144, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/engine.py", line 126, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/defaulttags.py", line 951, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/template/base.py", line 528, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 167: 'endblock', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+WARNING:Not Found: /favicon.ico
+ERROR:Internal Server Error: /songs/
+Traceback (most recent call last):
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/chudik/dbproject/djangoenv/lib/python3.5/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/chudik/dbproject/testproj/PumpManager/views.py", line 297, in songs
+    raise Exception
+Exception

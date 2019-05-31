@@ -1,3 +1,35 @@
 {% extends "PumpManager/base.html" %}
 
 {%block title%}PM ~ Настройки{%endblock%}
+{%block header%}Настройки профиля{%endblock%}
+
+{% block content%}
+<form action="" method="post">
+{% csrf_token %}
+<div class="row">
+<label for="inputPassword" class="col-md2 control-label">Никнейм:</label>
+    <div class="col-md-6">
+      <input name="nickname" class="form-control" id="inputNick" placeholder="Никнейм на сайте">
+  </div>
+</div>
+<div class="row" style="margin-top:20px">
+    <div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Муж.
+    </label>
+
+    </div>
+    <div class="radio" style="margin-left: 10px">
+        <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        Жен.
+        </label>
+    </div>
+</div>
+<button type="submit">Сохранить настройки</button>
+</form>
+<div class="row">
+{{message}}
+</div>
+{%endblock%}

@@ -1,7 +1,7 @@
 from celery.decorators import task
 from testproj.clr import app as celery_app
-from PumpManager.models import Song, Chart
-from PumpManager.pumpdb import convertSongs
+from PumpManager.models import Song, Chart, Mix
+from PumpManager.pumpdb import getSong
 import logging
 
 logging.basicConfig(filename='history.log', format='%(levelname)s:%(message)s', level=logging.DEBUG)
@@ -12,8 +12,8 @@ def upgr_db():
     song = "default"
     chart = "default"
     for i in range(1, 800):
-        songs = convertSongs(i)
-        for song in songs:
+        song = getSong(i)
+        if song:
             try:
                 print(song)
                 #print(song['name'], song['author'], song['bpm'], song['type'], song['cathegory'])
@@ -29,6 +29,10 @@ def upgr_db():
                     logging.error(e)
                     logging.error(song)
 
+                for mix in song['mixes']:
+                    print(mix)
+                    s.mix.add(Mix.objects.get(name = mix))
+                    s.save()
 
                 for chart in song['charts']:
                     c = Chart(  lvl=chart['lvl'],
@@ -48,7 +52,6 @@ def upgr_db():
                 logging.error(e)
 
     print("END UPDATING SONG DB")
-    return len(songs)
 
 if __name__ == "__main__":
     upgr_db()

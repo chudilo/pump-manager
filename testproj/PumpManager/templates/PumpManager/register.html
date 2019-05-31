@@ -1,12 +1,37 @@
 {% extends "PumpManager/base.html" %}
 
 {% block title %}Регистрация{% endblock %}
-
+{%block header%}Регистрация{%endblock%}
 {% block content %}
-<form action="" method="post">
+<form class="form-horizontal" action="" method="post">
   {% csrf_token %}
   <!-- as_p для того, чтобы каждый элемент формы был с новой строки -->
   {{ form.as_p }}
-  <button type="submit">Зарегистрироваться</button>
+
+
+
+    <div class="row">
+    <label for="inputPassword" class="col-md2 control-label">Никнейм:</label>
+        <div class="col-md-6">
+          <input name="nickname" class="form-control" id="inputNick" placeholder="Никнейм на сайте">
+      </div>
+    </div>
+    <div class="row" style="margin-top:20px">
+        <div class="radio">
+        <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            Муж.
+        </label>
+
+        </div>
+        <div class="radio" style="margin-left: 10px">
+            <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Жен.
+            </label>
+        </div>
+    </div>
+    <button type="submit">Зарегистрироваться</button>
+
 </form>
 {%endblock%}

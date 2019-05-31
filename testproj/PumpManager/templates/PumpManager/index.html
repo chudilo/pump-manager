@@ -1,5 +1,5 @@
 {% extends "PumpManager/base.html" %}
-
+{%load static%}
 {%block title%}PM ~ Главная{% endblock%}
 
 {%block header%}Pump manager ~ Добро пожаловать!{%endblock%}
@@ -9,18 +9,21 @@
 
  {% block content %}
 
- <div class="row"> На этом сайте можно найти: </div>
- <div class="row">
-     <a href="/lists">Базу знаний</a>
-: информация о всех треках, сложностях, версиях игры и локациях.
- </div>
- <div class="row">
-     <a href="/random">Выбор случайных треков</a>: тут что-то будет, короче,
-     Я ЧЕСТНО СДЕЛАЮ.
- </div>
- <div class="row">
-     А также вы можете <a href="/register" style="margin-left: 7px">зарегестрироваться</a>,
-     чтобы фиксировать свои результаты и обозначать своё присутсвие на локациях.
- </div>
+     <div class="row"> На этом сайте можно найти: </div>
+         <div class="row">
+             <a href="/lists">Базу знаний</a>
+        : информация о всех треках, сложностях, версиях игры и локациях.
+         </div>
+         <div class="row">
+             <a href="/random">Выбор случайных треков</a>
+         </div>
+         <div class="row">
+             А также вы можете <a href="/register" style="margin-left: 7px">зарегестрироваться</a>,
+             чтобы фиксировать свои результаты и обозначать своё присутсвие на локациях.
+         </div>
+
+<p></p>
+<img src="{%static 'PumpManager/Logo.png' %}" class="img">
+
 
  {%endblock%}

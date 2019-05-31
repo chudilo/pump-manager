@@ -15,7 +15,7 @@
     <div class="row">Версия автомата
         <select name="version" class="form-control">
             <option>---</option>
-            {%for version in versions%} <!-- this is mix, actually -->
+            {%for version in versions.reverse%} <!-- this is mix, actually -->
             <option>{{version.name}} </option>
             {%endfor%}
 
@@ -35,8 +35,8 @@
     <select name="type" class="form-control">
         <option>---</option>
         <option>Arcade</option>
-        <option>Full</option>
-        <option>Short</option>
+        <option>Full Song</option>
+        <option>Short Cut</option>
         <option>Remix</option>
     </select>
     </div>
@@ -132,9 +132,14 @@
     <img src="{%static 'PumpManager/02-RANDOM.png' %}" class="img">
 </div>
 </div>
-
+{% if result %}
 <p>{{message}}</p>
 <p> <a href="/songs/{{result.song.id}}" style = "margin">{{result.song.name}}<a> {{result.type}}{{result.lvl}}</p>
+{%else%}
+<p></p>
+<p>По вашим фильтрам не найдено ни одного чарта.</p>
+{%endif%}
+
 <!--
 {% for song in result_songs %}
 <p> {{song}}

@@ -10,12 +10,25 @@
 
 <div class="row">
 <div class="col-md-6">
+
+
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="col-md-12">
+        <input name="song_name" class="form-control" id="inputResult" placeholder="Имя трека">
+        </div>
+        <div class="col-md-6" style="margin-top:10px">
+            <input type="submit" class="btn btn-block btn-outline-primary"  value="Найти трек" name="Find song">
+        </div>
+    </form>
+
+
 <form action="" method="post">
 {% csrf_token %}
     <div class="row">Версия автомата
         <select name="version" class="form-control">
             <option>---</option>
-            {%for version in versions%} <!-- this is mix, actually -->
+            {%for version in versions.reverse%} <!-- this is mix, actually -->
             <option>{{version.name}} </option>
             {%endfor%}
 
@@ -35,8 +48,8 @@
     <select name="type" class="form-control">
         <option>---</option>
         <option>Arcade</option>
-        <option>Full</option>
-        <option>Short</option>
+        <option>Full Song</option>
+        <option>Short Cut</option>
         <option>Remix</option>
     </select>
     </div>
@@ -124,7 +137,7 @@
     </div>
     </div>
     <div class="col-md-6">
-    <input type="submit" class="btn btn-block btn-outline-primary" value="Отфильтровать список" name="Filter songs">
+    <input type="submit" class="btn btn-block btn-outline-primary"  value="Отфильтровать базу" name="Filter songs">
     </div>
 </form>
 <div class="row">
@@ -135,12 +148,19 @@
 
 </div>
 <div class="col-md-5" style = "margin-left: 10px">
-    <div class="row">
+    <div class="row" style="margin-bottom: 10px;">
+        <div class="col-md-6">
+        {%if user.is_authenticated %}
         <form action="" method="post">
         {% csrf_token %}
             <input type="submit" class="btn btn-block btn-outline-primary" value="Обновление списка" name="Update song list">
         <!--<button>Кнопка </button>-->
         </form>
+        {%endif%}
+        </div>
+            <div class="col-md-6">
+                {{message}}
+            </div>
     </div>
     {% for song, charts in context.pairs %}
     <div class="row" style = "border: 3px solid #fff; outline: 1px solid #000">

@@ -16,11 +16,14 @@ urlpatterns = [
     path('mixes/', views.mixes, name='mixes'),
     path('mixes/<mix_id>', views.mixID, name='mixID'),
 
-    path('register/', views.RegisterFormView.as_view(), name='register'),
+    #path('register/', views.RegisterFormView.as_view(), name='register'),
+    path('register/', views.register, name='register'),
     path('login/', views.LoginFormView.as_view(), name='login'),
     path('logout/', views.LogoutView.as_view(), name='logout'),
+
     path('profile/', views.profile, name='profile'),
     path('profile/settings', views.profile_settings, name = 'profile_settings'),
+    path('profile/add', views.profile_add, name='profile_add'),
 
     path('locations/', views.locations, name = 'locations') ,
 ]
